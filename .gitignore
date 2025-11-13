@@ -41,3 +41,19 @@ xcuserdata
 xcshareddata
 *.xccheckout
 
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.pins
+# 保留 Package.resolved，保证依赖版本一致
+!Package.resolve
+
+# Swift Package Manager 缓存
+.swiftpm/
+.build/
+
+
+# 打包产物
+*.ipa
+*.app
+
